@@ -14,7 +14,7 @@ function App() {
           <a href="#stack">Toolbox</a>
           <a href="#approach">Approach</a>
         </nav>
-        <a className="header-link" href="#contact">Let’s connect <span aria-hidden="true">↗</span></a>
+        <a className="header-link" href="mailto:en.suryanshrastogi@gmail.com" aria-label="Email en.suryanshrastogi@gmail.com">en.suryanshrastogi@gmail.com <span aria-hidden="true">↗</span></a>
       </header>
 
       <main>
@@ -101,7 +101,7 @@ function App() {
         <section className="contact-section" id="contact" aria-labelledby="contact-title">
           <div className="section-wrap contact-inner">
             <div><p className="eyebrow">HAVE A DATA CHALLENGE?</p><h2 id="contact-title">Let’s make the data <em>useful.</em></h2><p>I’m always glad to connect with people building thoughtful data platforms and analytics solutions.</p></div>
-            <div className="contact-actions"><a className="button button-light" href="https://www.linkedin.com/in/16suryansh-rastogi/" target="_blank" rel="noreferrer">LinkedIn <span aria-hidden="true">↗</span></a><a className="contact-secondary" href="https://github.com/16suryanshrastogi" target="_blank" rel="noreferrer">Explore GitHub <span aria-hidden="true">↗</span></a></div>
+            <div className="contact-actions"><a className="button button-light" href="mailto:en.suryanshrastogi@gmail.com">en.suryanshrastogi@gmail.com <span aria-hidden="true">↗</span></a><a className="contact-secondary" href="https://www.linkedin.com/in/16suryansh-rastogi/" target="_blank" rel="noreferrer">LinkedIn <span aria-hidden="true">↗</span></a><a className="contact-secondary" href="https://github.com/16suryanshrastogi" target="_blank" rel="noreferrer">Explore GitHub <span aria-hidden="true">↗</span></a></div>
           </div>
         </section>
       </main>
