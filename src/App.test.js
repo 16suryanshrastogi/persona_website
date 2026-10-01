@@ -1,8 +1,9 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
+test('renders the data engineering portfolio', () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+  expect(screen.getByRole('heading', { name: /i turn complex data into trusted systems/i })).toBeInTheDocument();
+  expect(screen.getByRole('link', { name: /explore my focus/i })).toHaveAttribute('href', '#focus');
+  expect(screen.getByRole('heading', { name: /a focused toolbox/i })).toBeInTheDocument();
 });
