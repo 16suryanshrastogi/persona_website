@@ -23,8 +23,6 @@ npm ci
 npm start
 ```
 
-The development server opens at [http://localhost:3000](http://localhost:3000).
-
 ## Available Scripts
 
 - `npm start` starts the development server.
