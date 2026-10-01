@@ -144,7 +144,7 @@ body, p, a, li, button {
 
 .hero h1 {
   max-width: 610px;
-  font-size: clamp(48px, 5.5vw, 76px);
+  font-size: 76px;
   line-height: 0.99;
 }
 
@@ -332,7 +332,7 @@ body, p, a, li, button {
   .main-nav a { font-size: 11px; }
   .header-link { padding: 10px; font-size: 10px; }
   .hero { min-height: 0; padding-top: 64px; padding-bottom: 67px; grid-template-columns: 1fr; gap: 48px; }
-  .hero h1 { max-width: 520px; font-size: clamp(47px, 12vw, 68px); }
+  .hero h1 { max-width: 520px; font-size: 47px; }
   .hero-summary { font-size: 14px; }
   .hero-note { margin-top: 30px; }
   .pipeline-visual { width: calc(100% - 10px); margin-right: 10px; }
